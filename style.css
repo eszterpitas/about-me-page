@@ -1,3 +1,22 @@
-body {
-  background-color: salmon;
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+}
+.description {
+  font-family: 'Alegreya', serif;
+}
+.job-title {
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+.location {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+}
+.box {
+  width: 500px;
+  background-color: lime;
+  margin: 170px auto 0;
+  padding: 0 75px 30px;
+  box-sizing: border-box;
 }
