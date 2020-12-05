@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -22,7 +24,7 @@ h1 {
 .box {
   max-width: 500px;
   background: linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%);
-  margin: 170px auto 0;
+  margin: 85px auto 0;
   padding: 135px 10px 30px;
   box-sizing: border-box;
   position: relative;
@@ -32,10 +34,21 @@ h1 {
   margin: 0 auto;
 }
 .avatar {
-position: absolute;
-top: -75px;
-left: 0;
-right: 0;
-margin-left: auto;
-margin-right: auto;
+width: 100%;
 }
+.img-box {
+  max-width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -75px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  @media (min-width: 520px) {
+    .box {
+      margin: 170px auto 0;
+    }
+  }
