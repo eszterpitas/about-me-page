@@ -2,6 +2,7 @@ body {
   background: url(images/picspree-680782.png);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -19,12 +20,16 @@ h1 {
   text-align: center;
 }
 .box {
-  width: 500px;
+  max-width: 500px;
   background: linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%);
   margin: 170px auto 0;
-  padding: 135px 75px 30px;
+  padding: 135px 10px 30px;
   box-sizing: border-box;
   position: relative;
+}
+.content {
+  max-width: 350px;
+  margin: 0 auto;
 }
 .avatar {
 position: absolute;
